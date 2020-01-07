@@ -1,0 +1,4 @@
+关于range()函数的一个小坑：
+python3中range()不能直接生成一个列表，需要用list函数对一个列表的对象进行迭代
+for example
+输入num = range(1, 5)，只能得到一个range的迭代对象，若要得到列表，则需要num = list(num)
